@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #270944, #bab6ce);
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.key {
+    border: 1px solid black;
+    align-content: end;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.white-key {
+    color: rgb(7, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 200px;
+}
+
+.black-key {
+    height: 100px;
+    width: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 40px;
+    font-size: 0.8em;
+
+}
+
+[data-note="C#4"] {
+    left: 47px;
+}
+
+[data-note="D#4"] {
+    left: 112px;
+}
+
+[data-note="F#4"] {
+    left: 232px;
+}
+
+[data-note="G#4"] {
+    left: 296px;
+}
+
+[data-note="A#4"] {
+    left: 360px;
+}
