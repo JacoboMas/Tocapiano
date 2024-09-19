@@ -1,3 +1,21 @@
+# Aplicacion web de piano 
+web de practicas de piano que permite tocar el piano con raton y teclado 
+
+## tecnologias
+- npm
+- vite
+- vitest
+
+## dependencias
+- tone js
+- gh pages
+
+## deploy
+
+https://jacobomas.github.io/tocapiano/
+
+## comandos
+
 Descarga las dependencias del proyecto
 ```
 npm install
@@ -23,6 +41,11 @@ Deploy a git hub
 npm run deploy
 ```
 
+Lanzar los test
+```
+npm run test
+```
+
 
 
 Quiero una pagina web que permita tocae el piano.
@@ -42,5 +65,5 @@ Se podra tocar tambien con el teclado del ordenador
 - codigo limpio  <-- refactorizacion
 - codigo correcto  <-- test
 - codigo optimizado (opcional)
-- codigo flexible  <-- 
+- codigo flexible <--refactorizacion
 - codigo seguro
