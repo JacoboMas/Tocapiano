@@ -39,22 +39,23 @@ body {
 
 }
 
-[data-note="C#4"] {
-    left: 47px;
-}
+[data-note="C#4"] {left: 47px;}
 
-[data-note="D#4"] {
-    left: 112px;
-}
+[data-note="D#4"] {left: 112px;}
 
-[data-note="F#4"] {
-    left: 232px;
-}
+[data-note="F#4"] {left: 232px;}
 
-[data-note="G#4"] {
-    left: 296px;
-}
+[data-note="G#4"] {left: 296px;}
 
-[data-note="A#4"] {
-    left: 360px;
+[data-note="A#4"] {left: 360px;}
+
+.key:hover {
+    background-color: #7fbde0 ;
+}
+.key.active {
+    background-color: #7fbde0;
+}
+.pressed {
+    background-color: #7fbde0;
+
 }

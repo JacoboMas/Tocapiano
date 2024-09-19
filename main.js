@@ -2,7 +2,7 @@ import './style.css'
 import * as Tone from "tone";
 import getNoteFromKey from './noteUtils';
 
-const synth = new Tone.Sampler({
+/*const synth = new Tone.Sampler({
 	urls: {
 		C4: "violin/C4.mp3",
 		"D#4": "Ds4.mp3",
@@ -11,8 +11,8 @@ const synth = new Tone.Sampler({
 	},
 	release: 1,
 	baseUrl: "",
-}).toDestination();
-//const synth = new Tone.Synth().toDestination();
+}).toDestination();*/
+const synth = new Tone.Synth().toDestination();
 
 
 
@@ -26,7 +26,7 @@ for (let key of keys) {
 
 }
 document.addEventListener('keypress', ctrlTeclado)
-document.addEventListener('keyrelease', stopNote)
+document.addEventListener('keyup', stopNote)
 
 
 function ctrlTeclado(event) {
